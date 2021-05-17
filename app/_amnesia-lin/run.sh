@@ -1,1 +1,0 @@
-java -Xms1024m -Xmx4096m -Dorg.eclipse.jetty.server.Request.maxFormKeys=1000000 -Dorg.eclipse.jetty.server.Request.maxFormContentSize=1000000 -jar "/volume1/DECIDO-APP/amnesia-lin/Amnesia.jar" --server.port=8181
