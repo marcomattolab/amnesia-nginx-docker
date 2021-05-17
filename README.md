@@ -39,12 +39,12 @@ $ docker-compose up -d
 3. Test to have Amnesia UP/RUNNING on http://localhost:80/
 
 
-##
+## Configuration Changes for other domain/port
 ```bash
-$ cd amnesia-nginx-docker/app/amnesia-lin/app/$ 
-$ code .
-$ Find/Replace "localhost/" => "torino.decido-project.eu:81/"
-
+$ cd amnesia-nginx-docker/app/amnesia-lin/app/
+Open Notepad++ find "localhost/" and replace with "torino.decido-project.eu:81/" for all istances.
+Open docker-compose.yaml and enable only ports - 81:80 
+Test to have Amnesia UP/RUNNING on http://torino.decido-project.eu:81/
 ```
 
 
