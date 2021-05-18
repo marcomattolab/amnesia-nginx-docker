@@ -1,4 +1,5 @@
-# This script run Amnesia anonymization tool (See https://github.com/dTsitsigkos/Amnesia)
+# This script run Amnesia anonymization tool 
+# See official docs: https://github.com/dTsitsigkos/Amnesia  See Example Dataset: https://amnesia.openaire.eu/Datasets.zip
 #
 # Step 1 => Copy demo-amnesia folder into user home and add permission to file .sh
 # Unix >> cp /demo-amnesia/ /home/demo-amnesia/ && cd /home/demo-amnesia
